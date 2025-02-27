@@ -103,7 +103,7 @@ public class EntityCrocodile extends TamableAnimal implements IAnimatedEntity, I
     }
 
     public static AttributeSupplier.Builder bakeAttributes() {
-        return Monster.createMonsterAttributes().add(Attributes.MAX_HEALTH, 30.0D).add(Attributes.FOLLOW_RANGE, 15).add(Attributes.ARMOR, 8.0D).add(Attributes.ATTACK_DAMAGE, 10.0D).add(Attributes.KNOCKBACK_RESISTANCE, 0.4F).add(Attributes.MOVEMENT_SPEED, 0.25F);
+        return Monster.createMonsterAttributes().add(Attributes.MAX_HEALTH, 70.0D).add(Attributes.FOLLOW_RANGE, 15).add(Attributes.ARMOR, 20.0D).add(Attributes.ATTACK_DAMAGE, 15.0D).add(Attributes.KNOCKBACK_RESISTANCE, 1).add(Attributes.MOVEMENT_SPEED, 0.5F);
     }
 
     public boolean checkSpawnRules(LevelAccessor worldIn, MobSpawnType spawnReasonIn) {
